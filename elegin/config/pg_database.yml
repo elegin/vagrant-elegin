@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ipsuite_development
+  host: localhost
+  pool: 5
+  username: ipsuite
+  password: ipsuite
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ipsuite_test
+  host: localhost
+  pool: 5
+  username: ipsuite
+  password: ipsuite
